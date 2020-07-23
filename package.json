@@ -1,0 +1,29 @@
+{
+  "name": "@sxc/upload-toolkit",
+  "version": "0.1.1-alpha.16",
+  "description": "上传图片的两种方法，一种前端自己上传到oss，一种是通过服务端上传",
+  "main": "dist/umd/index.js",
+  "module": "dist/es/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Scofield",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "fingerprintjs2sync": "^1.5.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-terser": "^6.1.0"
+  },
+  "peerDependencies": {
+    "ali-oss": ">=6.9.1"
+  }
+}
