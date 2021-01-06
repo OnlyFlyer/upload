@@ -10,7 +10,7 @@
   "author": "Mark Scofield",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "fingerprintjs2sync": "^1.5.5"
   },
   "devDependencies": {
